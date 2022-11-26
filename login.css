@@ -1,0 +1,20 @@
+body {
+  background-image: url("dlsu.png");
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+div{
+	text-align: center;
+	border: solid 2px black;
+	background-color: rgba(0,0,0,0.6);
+	width: 400px;
+	height: 200px;
+}
+h1 {
+  color: white;
+  margin-left: 20px;
+}
+label {
+	color: white;
+}
