@@ -1,0 +1,28 @@
+/* body {
+    background-image: url("homepage-bg.jpg");
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    scale: 70%;
+    margin:0;
+} */
+
+#logo{
+    position: relative;
+    margin:0;
+
+}
+
+#top-header{
+    position:fixed;
+    border: solid 2px black;
+	background-color: white;
+	width: 200px;
+	height: 100px;
+    margin:0%;
+    bottom: 100%;
+    padding-top: 10%;
+
+
+}
+    
