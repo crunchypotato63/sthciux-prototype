@@ -16,18 +16,12 @@
 	border: 1px solid black;
 }
 
-#topbar .labelbox {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	height: 50px;
-}
-
 #label {
 	color: white;
 	font-size: 24px;
 	align-self: flex-start;
 	border: 1px solid black;
+	transform: translateY(-50%);
 }
 #topbar #mega {
 	position: absolute;
