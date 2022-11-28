@@ -47,6 +47,19 @@
 	color: #046a38;
 }
 
+#menubuttons {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	width: 30%;
+	gap: 10px;
+}
+
+.menubutton {
+	width: 130px;
+	height: 130px;
+}
+
 #annlog {
 	display:flex;
 	flex-direction: column;
