@@ -1,0 +1,91 @@
+#topbar {
+	display: flex;
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	left: 0px;
+	height:50px;
+	background-color: #046a38;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+#topbar #star {
+	height: 50px;
+	width: 50px;
+	border: 1px solid black;
+}
+
+#label {
+	color: white;
+	font-size: 24px;
+	align-self: flex-start;
+	transform: translateY(-50%);
+}
+#topbar #mega {
+	position: absolute;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	right: 0%;
+	align-items: center;
+	height:50px;
+	background-image: url("megaphone.png");
+	border: 0px
+}
+#megap {
+	height: 50px;
+	width: 50px;
+}
+.search{
+	justify-content: center;
+	gap: 20px;
+	margin: 30px;
+	display: flex;
+	height: 10%
+}
+#coursesearch{
+	width: 90%;
+}
+#courselabel{
+	text-align: center;
+	vertical-align: middle;
+	padding: 25px 0;
+}
+#results{
+	justify-content: center;
+	gap: 20px;
+	margin: 30px;
+	display: flex;
+	height: 10%;
+	font-size: 30px;
+	border: 1px solid black;
+}
+
+.enlisted-classes{
+	justify-content: center;
+	gap: 20px;
+	margin: 30px;
+	display: flex;
+	height: 10%;
+	font-size: 30px;
+	border: 1px solid black;
+}
+.schedule{
+	justify-content: center;
+	gap: 20px;
+	margin: 30px;
+	display: flex;
+	height: 10%;
+	font-size: 30px;
+	border: 1px solid black;
+}
+#funnysavediv{
+	justify-content: center;
+	position: center;
+	text-align: center;
+	
+}
+#save{
+	font-size: 30px;
+}
