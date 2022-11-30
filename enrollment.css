@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta&display=swap');
+
+#topbar {
+	display: flex;
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	left: 0px;
+	height:50px;
+	background-color: #046a38;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+#topbar #star {
+	height: 50px;
+	width: 50px;
+	border: 1px solid black;
+}
+
+#label {
+	color: white;
+	font-size: 24px;
+	align-self: flex-start;
+	transform: translateY(-50%);
+}
+#topbar #mega {
+	position: absolute;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	right: 0%;
+	align-items: center;
+	height:50px;
+	background-image: url("megaphone.png");
+	border: 0px
+}
+#megap {
+	height: 50px;
+	width: 50px;
+}
+
+body {
+    font-family: "Mukta"
+}
