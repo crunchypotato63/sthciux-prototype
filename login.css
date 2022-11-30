@@ -1,19 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta&display=swap');
 body {
+  font-family: "Mukta", sans-serif;
   background-image: url("dlsu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
   display:flex;
   justify-content: center;
   align-items: center;
 }
-div{
+
+.loginbox {
 	text-align: center;
 	border: solid 2px black;
 	background-color: rgba(0,0,0,0.6);
 	width: 400px;
 	height: 200px;
 }
+
 h1 {
   color: white;
-  margin-left: 20px;
 }
 label {
 	color: white;
